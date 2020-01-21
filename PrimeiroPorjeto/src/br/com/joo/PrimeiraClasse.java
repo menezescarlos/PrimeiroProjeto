@@ -5,6 +5,6 @@ public class PrimeiraClasse {
 	System.out.println("Olá mundo");
 	System.out.println("Olá Brasil");
 	System.out.println("Java é Vida");
-	System.out.println("Java Hoje");
+	System.out.println("Java");
 }
 }

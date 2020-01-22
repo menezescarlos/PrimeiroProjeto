@@ -9,10 +9,41 @@ public class Variaveis {
 		 * instruções de laço For e while, controle de fluxo com break e continue
 		 */
 		
-		//Declaração
-		//tipo  + Nome da variavel
+		//DECLARAÇÃO
+		//tipo  + Nome da variavel / Atribuição
+		
+		//TIPO
+		//byte, short, char, int, long, float, double
+		
+		//TAMANHO
+		//boolean 1 bit
+		//byte 1 byte
+		//short 2 bytes
+		//char 2 bytes
+		//int 4 bytes
+		//float 4 bytes
+		//long 8 bytes
+		//double 8 bytes
+		
 		int x = 50;
 		System.out.println(x);
+		
+		//CASTING
+		float z = 50;
+		int y = (int)z;
+		System.out.println(y);
+		
+		
+		//OPERADORES
+		//Operadores aritmeticos (Precedencias (), ^, *, /, %, +, -)
+		//*; /; +; -; %
+		
+		//Operadores de lógicos
+		// &&; ||
+		
+		//Operadores de comparação
+		//>, <, >=, <=, ==
+		
 
 	}
 

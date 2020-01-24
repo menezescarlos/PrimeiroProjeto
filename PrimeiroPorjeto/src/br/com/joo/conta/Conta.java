@@ -64,5 +64,14 @@ public class Conta {
 	public void calculaRendimento() {
 		
 	}
+	
+	public String recuperaDadosParaImpressao() {
+		String dados = "Titular: " + this.getTitular();
+		dados += "\nNúmero: " + this.getNumero();
+		dados += "\nNúmero: " + this.getAgencia();
+		dados += "\nNúmero: " + this.getSaldo();
+		dados += "\nNúmero: " + this.getDataAbertura();
+		return dados;
+	}
 
 }

@@ -5,13 +5,19 @@ import br.com.joo.conta.Conta;
 public class TestaConta {
 
 	public static void main(String[] args) {
-		Conta c1 = new Conta();
-
-		c1.setTitular("Hugo");
-		c1.setNumero(1234);
-		c1.setAgencia("45678-9");
-		c1.deposita(50);
-		c1.setDataAbertura("04/11/1988");
+		Conta c1 = new Conta("Hugo");
+		System.out.println(c1.getTitular());
+		
+		System.out.println(" * ");
+		
+		Conta c3 = new Conta(123);
+		System.out.println(c3.getTitular());
+		System.out.println(c3.getNumero());
+		
+		/*
+		 * c1.setTitular("Hugo"); c1.setNumero(1234); c1.setAgencia("45678-9");
+		 * c1.deposita(50); c1.setDataAbertura("04/11/1988");
+		 */
 
 		Conta c2 = c1; // São Objetos iguais c1 e c2
 		//Conta c2 =  new Conta(); //São Objetos diferentes c1 e c2

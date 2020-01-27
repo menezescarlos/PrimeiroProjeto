@@ -1,11 +1,22 @@
 package br.com.joo.conta;
 
 public class Conta {
-	private String titular;
+	private static String titular;
 	private int numero;
 	private String agencia;
 	private double saldo;
 	private String dataAbertura;
+	
+	public Conta(String titular) {
+		this.titular = titular;
+	}
+	
+
+	public Conta(int numero) {
+		this(titular);
+		this.numero = numero;
+	}
+
 
 	public String getTitular() {
 		return titular;
